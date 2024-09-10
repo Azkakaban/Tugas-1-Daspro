@@ -1,0 +1,23 @@
+uses crt;
+var
+   nama: string;
+   nim: string;
+   kom: char;
+   alamat: string;
+begin
+clrscr;
+   writeln('Masukkan Nama Anda:');
+   writeln('Masukkan NIM Anda:');
+   writeln('Masukkan Kom Anda:');
+   writeln('Masukkan Alamat Anda:');
+   
+   gotoxy(20,1); readln(nama);
+   gotoxy(19,2); readln(nim);
+   gotoxy(19,3); readln(kom);
+   gotoxy(22,4); readln(alamat);
+
+   writeln(' ');
+   writeln('Hallo,Nama saya ',nama,', NIM saya ',nim,', ');
+   writeln('saya di kom ',kom,', alamat saya di ',alamat,'. Salam ');
+   write('Kenal Semua!');
+end.
