@@ -1,0 +1,16 @@
+uses crt;
+begin
+clrscr;
+    writeln('Januari');
+    writeln('Februari');
+    writeln('Maret');
+    writeln('April');
+    writeln('Mey');
+    writeln('Juni');
+    writeln('Juli');
+    writeln('Agusutus');
+    writeln('September');
+    writeln('Oktober');
+    writeln('November');
+    writeln('Desember');
+end.
