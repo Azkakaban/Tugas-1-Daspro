@@ -1,0 +1,21 @@
+uses crt;
+var
+   jalan : string;
+   nomor : integer;
+   kota : string;
+   kode : integer;
+begin
+clrscr;
+    writeln('Jalan     :');
+    writeln('No        :');
+    writeln('Kota      :');
+    writeln('Kode Pos  :');
+
+    gotoxy(12,1); readln(jalan);
+    gotoxy(12,2); readln(nomor);
+    gotoxy(12,3); readln(kota);
+    gotoxy(12,4); readln(kode);
+    
+    writeln(' ');
+    write('Alamat: Jalan ',jalan,' No. ',nomor,' ',kota,' ',kode);
+end.
